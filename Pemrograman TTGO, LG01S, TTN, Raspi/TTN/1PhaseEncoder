@@ -1,7 +1,0 @@
-function Encoder(object, port){
-  if(object.state){
-    return [object.state.on ? 0x01 : 0x00]
-  }
-  
-  return[];
-}
